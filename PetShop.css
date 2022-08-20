@@ -1,0 +1,76 @@
+body {
+    background: rgb(220,192,244);
+    background: radial-gradient(circle, rgba(220,192,244,1) 0%, rgba(187,120,245,1) 23%, rgba(220,192,244,1) 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color:  #dcc0f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    border: 10px solid #d1acf2;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 50px ;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    color: #747eeb;
+    font-size: 350%;
+}
+
+h2 {
+    background-color: #a867e1;
+    display: inline;
+    border-radius: 10px;
+}
+
+#poodle {
+    border-radius: 50px;
+    justify-content: space-around;
+
+}
+
+#pets {
+    height: 500px;
+    width: 600px;
+}
+
+p {
+    font-size: 150%;
+}
+
+#médicos {
+    border-radius: 30px;
+    border: 7px solid #cea4f5;
+    border-style: dashed double none;
+}
+
+footer {
+    background-color: #dcc0f4;   
+    text-align: center;
+    line-height: 50px;
+    border:10px  solid #d1acf2 ;
+}
+
+.tamanholetra{
+    font-size: medium;
+}
