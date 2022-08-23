@@ -1,0 +1,49 @@
+body {
+    background: rgb(220,192,244);
+    background: radial-gradient(circle, rgba(220,192,244,1) 0%, rgba(187,120,245,1) 23%, rgba(220,192,244,1) 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: #dcc0f4;   
+    text-align: center;
+    line-height: 50px;
+    border: 10px solid #d1acf2;
+}
+
+div {
+    background-color: #dcc0f4 ;
+    border: 10px solid #d1acf2;
+}
+
+#titulo {
+    background-color:  #dcc0f4;
+        
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 50px ;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #747eeb;
+    font-size: 350%;
+}
